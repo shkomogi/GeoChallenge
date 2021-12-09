@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PngHomeActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityimageRelative"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/cityImage"
+            android:src="@drawable/png"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityRelativeView"
+        android:layout_below="@+id/cityimageRelative"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityTextView"
+            android:text="@string/pngtextview"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IntroRelative"
+        android:layout_below="@+id/cityRelativeView"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/statesIntro"
+            android:text="@string/pngIntro"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:textSize="17dp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRelative2"
+        android:layout_below="@+id/IntroRelative"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityLevel1button"
+            android:text="@string/cityL1"
+            android:textStyle="bold"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityLevel2button"
+            android:text="@string/cityL2"
+            android:textStyle="bold"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_below="@+id/cityLevel1button"
+            android:layout_marginTop="40dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/ImageRelative">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/homeLogo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_geoapplogo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/homeTextView"
+        android:text="@string/homeTextView"
+        android:layout_below="@+id/homeLogo"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"/>
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonRelative"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/ImageRelative">
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/CityChallengeBttn"
+            android:layout_marginTop="20dp"
+            android:text="@string/citychallengeBttn"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/StatesChallengeBttn"
+            android:layout_below="@+id/CityChallengeBttn"
+            android:layout_marginTop="20dp"
+            android:text="@string/stateschallengeBttn"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/FlagsChallengeBttn"
+            android:layout_below="@+id/StatesChallengeBttn"
+            android:layout_marginTop="20dp"
+            android:text="@string/flagchallengeBttn"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pngchallengeBttn"
+            android:layout_below="@+id/FlagsChallengeBttn"
+            android:layout_marginTop="20dp"
+            android:text="@string/pngdistrictBttn"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ScoreboardBttn"
+            android:layout_below="@+id/pngchallengeBttn"
+            android:layout_marginTop="20dp"
+            android:text="@string/ScoreBttn"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+
+<!--
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/AboutHomeBttn"
+        android:layout_below="@+id/ScoreboardBttn"
+        android:layout_marginTop="20dp"
+        android:text="@string/aboutBttn"
+        android:layout_marginLeft="50dp"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ExitHomeBttn"
+        android:layout_below="@+id/ScoreboardBttn"
+        android:layout_marginTop="20dp"
+        android:text="@string/exitBttn"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/AboutHomeBttn"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:textStyle="bold"/> -->
+
+
+
+</RelativeLayout>

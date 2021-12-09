@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">GeoChallenge</string>
+    <string name="homeTextView">Geo Challenge</string>
+    <string name="citychallengeBttn">City Challenge</string>
+    <string name="stateschallengeBttn">States Challenge</string>
+    <string name="flagchallengeBttn">Flag Challenge</string>
+    <string name="pngdistrictBttn">PNG Challenge</string>
+    <string name="ScoreBttn">Scoreboard</string>
+    <string name="aboutBttn">About</string>
+    <string name="exitBttn">Exit</string>
+    <string name="citytextview">City Challenge</string>
+    <string name="cityL1">Level 1</string>
+    <string name="cityL2">Level 2</string>
+    <string name="flagtextview">Flag Challenge</string>
+    <string name="pngtextview">PNG Challenge</string>
+    <string name="statestextview">States Challenge</string>
+    <string name="statesIntro">Test your knowledge of States in the US and Australia</string>
+    <string name="cityIntro">Test your knowledge of the\n capital cities of countries</string>
+    <string name="flagIntro">Test your knowledge of the national flags of countries all over the world</string>
+    <string name="pngIntro">Test your knowledge of Districts and Provincial Capitals in PNG</string>
+    <string name="cityScore">City Challenge</string>
+    <string name="stateScore">States Challenge</string>
+    <string name="pngScore">PNG Challenge</string>
+    <string name="flagScore">Flag Challenge</string>
+    <string name="highest">Highest Score </string>
+    <string name="last">Last Score</string>
+</resources>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreboardActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ScoreRelative"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ScoreImage"
+            android:src="@drawable/scorestar"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="175dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreValuesRelative"
+        android:padding="10dp"
+        android:layout_below="@+id/ScoreRelative">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityScore"
+            android:text="@string/cityScore"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityHighScore"
+            android:layout_below="@+id/cityScore"
+            android:text="@string/highest"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityLastScore"
+            android:layout_below="@+id/cityHighScore"
+            android:text="@string/last"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreValuesRelative2"
+        android:layout_below="@+id/scoreValuesRelative"
+        android:padding="10dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stateScore"
+            android:text="@string/stateScore"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stateHighScore"
+            android:layout_below="@+id/stateScore"
+            android:text="@string/highest"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/statesLastScore"
+            android:layout_below="@+id/stateHighScore"
+            android:text="@string/last"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreValuesRelative3"
+        android:layout_alignParentRight="true"
+        android:layout_marginVertical="270dp"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/flagScore"
+            android:text="@string/flagScore"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/flagHighScore"
+            android:layout_below="@+id/flagScore"
+            android:text="@string/highest"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/flagLastScore"
+            android:layout_below="@+id/flagHighScore"
+            android:text="@string/last"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreValuesRelative4"
+        android:layout_alignParentRight="true"
+        android:layout_marginVertical="440dp"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pngScore"
+            android:text="@string/pngScore"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pngHighScore"
+            android:layout_below="@+id/pngScore"
+            android:text="@string/highest"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pngLastScore"
+            android:layout_below="@+id/pngHighScore"
+            android:text="@string/last"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
